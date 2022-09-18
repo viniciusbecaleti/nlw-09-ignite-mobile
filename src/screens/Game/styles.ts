@@ -3,7 +3,8 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center'
+    alignItems: 'center',
+    paddingBottom: 32
   },
   header: {
     width: '100%',
@@ -26,5 +27,13 @@ export const styles = StyleSheet.create({
     height: 160,
     borderRadius: 8,
     marginTop: 32
+  },
+  containerList: {
+    width: '100%'
+  },
+  contentList: {
+    paddingLeft: 32,
+    paddingRight: 64,
+    alignItems: 'flex-start'
   }
 });
